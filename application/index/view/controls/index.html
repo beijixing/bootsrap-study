@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>布局组件</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, max-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>布局组件</h1>
+
+    <h3>带导航栏的图标字体</h3>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-home">&nbsp; Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#shop">
+                            <span class="glyphicon glyphicon-shopping-cart">&nbsp;Shop</span></a>
+                    </li>
+                    <li>
+                        <a href="#support">
+                            <span class="glyphicon glyphicon-headphones">&nbsp;Support</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+    </div>
+
+
+    <h3>字体图标</h3>
+    <p>
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-sort-by-attributes"></span>
+        </button>
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+        </button>
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-sort-by-order"></span>
+        </button>
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-sort-by-order-alt"></span>
+        </button>
+    </p>
+    <button type="button" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-user"></span>
+        User
+    </button>
+    <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-user"></span>
+        User
+    </button>
+    <button type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-user"></span>
+        User
+    </button>
+
+    <h3>定制的字体图标</h3>
+    <button type="button" class="btn btn-primary btn-lg">
+        <span class="glyphicon glyphicon-user"></span> User
+    </button>
+    <br>
+
+    <smal>定制字体图标的大下</smal>
+    <button type="button" class="btn btn-primary btn-lg" style="font-size: 60px">
+        <span class="glyphicon glyphicon-user"></span> User
+    </button>
+
+    <smal>定制字体图标的颜色</smal>
+    <button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);">
+        <span class="glyphicon glyphicon-user"></span> User
+    </button>
+
+    <smal>定制字体图标的阴影</smal>
+    <button type="button" class="btn btn-primary btn-lg" style="text-shadow: black 5px 3px 3px;">
+        <span class="glyphicon glyphicon-user"></span> User
+    </button>
+
+
+    <h3>下拉菜单</h3>
+    <div class="dropdown">
+        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">Java</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
