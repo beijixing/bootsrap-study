@@ -13,7 +13,7 @@ class Controls extends Controller
 {
     public function index() {
         $this->view->replace([
-            '__PUBLIC__' => '/HelloPHPStorm/public/static',
+            '__PUBLIC__' => '/bootstrap-study/public/static',
         ]);
         return $this->fetch();
     }
