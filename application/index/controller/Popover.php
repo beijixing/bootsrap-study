@@ -2,14 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: horse
- * Date: 16/12/21
- * Time: 下午4:14
+ * Date: 16/12/22
+ * Time: 下午3:57
  */
 
 namespace app\index\controller;
-use think\Controller;
 
-class Controls extends Controller
+use think\Controller;
+class Popover extends Controller
 {
     public function index() {
         $this->view->replace([
@@ -19,3 +19,4 @@ class Controls extends Controller
         return $this->fetch();
     }
 }
+
